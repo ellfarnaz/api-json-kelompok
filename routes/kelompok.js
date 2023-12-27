@@ -44,7 +44,7 @@ router.get("/kelompok/:id", (req, res) => {
   const kelompokId = parseInt(req.params.id);
   const singleKelompok = dataMhs.find((item) => item.id === kelompokId);
   if (!kelompokId) {
-    return res.status(404).json({ message: "Product not found" });
+    return res.status(404).json({ message: "Data tidak ditemukan" });
   }
   res.json(singleKelompok);
 });
