@@ -10,6 +10,7 @@ const dataMhs = [
     jurusan: "Informatika",
     angkatan: "2021",
     Image: "https://i.ibb.co/XJ9BLkK/Salinan-IMG-9921.jpg",
+    api_kelompok: "https://api-json-kelompok.vercel.app/kelompok/101",
     maba: true,
   },
   {
@@ -20,6 +21,7 @@ const dataMhs = [
     jurusan: "Informatika",
     angkatan: "2021",
     Image: "https://i.ibb.co/vXrrcCD/Salinan-IMG-4665.jpg",
+    api_kelompok: "https://api-json-kelompok.vercel.app/kelompok/101",
     maba: true,
   },
   {
@@ -30,6 +32,7 @@ const dataMhs = [
     jurusan: "Informatika",
     angkatan: "2021",
     Image: "https://i.ibb.co/w0QdsCZ/Salinan-IMG-3472.jpg",
+    api_kelompok: "https://api-json-kelompok.vercel.app/kelompok/101",
     maba: true,
   },
 ];
